@@ -124,7 +124,7 @@ InitPciInfo (
   @return                PciInfo->Name
 **/
 STATIC
-CONST CHAR8 *
+CONST CHAR8 __attribute__((__unused__)) *
 GetPciName (
   IN OUT CANDIDATE_PCI_INFO *PciInfo
   )
